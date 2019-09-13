@@ -8,10 +8,11 @@ import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import com.example.rxwithmvvm.R
+import com.example.rxwithmvvm.databinding.ActivityPostListBinding
 import com.example.rxwithmvvm.injection.ViewModelFactory
 
 class PostListActivity: AppCompatActivity() {
-    private lateinit var binding: ActivityPostListBinding
+    private lateinit var binding : ActivityPostListBinding
     private lateinit var viewModel: PostListViewModel
     private var errorSnackbar: Snackbar? = null
 
